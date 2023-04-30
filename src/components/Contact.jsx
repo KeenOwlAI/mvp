@@ -104,10 +104,10 @@ const Contact = () => {
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact</Title>
-            <Input placeholder="Name" name="name" />
-            <Input placeholder="Email" name="email" />
+            <Input placeholder="Nom" name="nom" />
+            <Input placeholder="Adresse mail" name="Adresse mail" />
             <TextArea
-              placeholder="Write your message"
+              placeholder="Dis-nous tout"
               name="message"
               rows={10}
             />

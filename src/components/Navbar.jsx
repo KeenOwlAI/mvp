@@ -75,10 +75,10 @@ const Navbar = () => {
         <Links>
           <Logo src="./img/logo.png" />
           <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Studio</ListItem>
-            <ListItem>Works</ListItem>
-            <ListItem>Contact</ListItem>
+            <ListItem>Accueil</ListItem>
+            <ListItem>Events</ListItem>
+            <ListItem>Artistes</ListItem>
+            <ListItem>A propos</ListItem>
           </List>
         </Links>
         <Icons>
