@@ -59,7 +59,7 @@ const Line = styled.img`
 `;
 
 const Subtitle = styled.h2`
-  color: #da4ea2;
+  color: #9c304d;
 `;
 
 const Desc = styled.p`
@@ -68,7 +68,7 @@ const Desc = styled.p`
 `;
 
 const Button = styled.button`
-  background-color: #da4ea2;
+  background-color: #9c304d;
   color: white;
   font-weight: 500;
   width: 120px;
@@ -93,16 +93,15 @@ const Who = () => {
           </Canvas>
         </Left>
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Pour tous vos projets événementiels</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Qui sommes-nous ?</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+            un groupe d'ingésons et artistes passionnés par l'underground.
           </Desc>
-          <Button>See our works</Button>
+          <Button>En savoir plus</Button>
         </Right>
       </Container>
     </Section>

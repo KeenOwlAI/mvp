@@ -61,7 +61,7 @@ const Icon = styled.img`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: #da4ea2;
+  background-color: #9c304d;
   color: white;
   border: none;
   border-radius: 5px;
@@ -84,7 +84,7 @@ const Navbar = () => {
         <Icons>
           {/* Changed the image due to copyright problems */}
           <Icon src="./img/search.png" />
-          <Button>Contact</Button>
+          <Button>S'abonnner</Button>
         </Icons>
       </Container>
     </Section>
