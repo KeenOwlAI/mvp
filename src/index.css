@@ -1,9 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-body {
-	background-image: url('./pexelsphoto1820770.jpeg');
-	background-size: cover;
-	background-position: top center;
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(90deg, rgba(255, 240, 245, 1) 1%, rgba(147, 130, 130, 1) 88%);
+  --gradient-bar: linear-gradient(90deg, rgba(255, 240, 245, 1) 1%, rgba(147, 130, 130, 1) 88%);
+  
+  --color-bg: #040C18;
+  --color-footer : #28020242;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
 }
+
